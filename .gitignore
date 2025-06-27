@@ -1,0 +1,30 @@
+# Node.js
+node_modules/
+.env
+*.log
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de cache/editor
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# VSCode
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Pastas temporárias
+dist/
+build/
+
+# Arquivos gerados
+*.zip

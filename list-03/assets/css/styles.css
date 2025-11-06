@@ -165,3 +165,43 @@ footer p, footer a {
 footer a:hover {
   color: #00c6ff;
 }
+
+/* === MEDIA QUERIES === */
+@media (max-width: 900px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .navbar {
+    padding: 15px 5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: #1e90ff;
+    flex-direction: column;
+    width: 100%;
+    display: none;
+    padding: 50px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    padding: 10px 0;
+  }
+
+  .galeria {
+    grid-template-columns: 1fr;
+  }
+}

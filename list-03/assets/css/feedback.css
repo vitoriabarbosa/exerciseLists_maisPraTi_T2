@@ -84,3 +84,14 @@ button:active {
   filter: none;
 }
 
+/* === MEDIA QUERIES === */
+@media (max-width: 900px) {
+  .feedback-content {
+    justify-content: center;
+    padding: 20px;
+  }
+
+  #feedback-form {
+    width: 90%;
+  }
+}

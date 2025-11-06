@@ -1,0 +1,86 @@
+/* === BACKGROUND & LAYOUT === */
+#feedback-page {
+  background: linear-gradient(135deg, rgba(30, 144, 255, 0.25), rgba(0, 198, 255, 0.25)),
+    url("../img/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* === MAIN === */
+.feedback-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 40px 10%;
+}
+
+/* === FORMULÁRIO === */
+#feedback-form {
+  background: rgba(255, 255, 255, 0.95);
+  color: #555;
+  border-radius: 12px;
+  width: 450px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+#feedback-form h1 {
+  color: #003366;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+label {
+  font-weight: 500;
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  font-size: 0.95em;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline-color: #1e90ff;
+  background: #fff;
+}
+
+button {
+  margin-top: 30px;
+  border-radius: 8px;
+  border: none;
+  padding: 15px;
+  background: #34a4f0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2em;
+  filter: drop-shadow(1px 2px 2px #777);
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+button:active {
+  filter: none;
+}
+

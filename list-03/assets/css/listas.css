@@ -1,0 +1,45 @@
+/* === LISTAS === */
+.custom-list {
+  margin: 20px 0;
+  padding-left: 25px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.custom-list li {
+  margin-bottom: 8px;
+}
+
+ol.custom-list {
+  list-style-type: decimal-leading-zero;
+}
+
+/* === LINKS EXTERNOS === */
+.navigation {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.external-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.external-links a {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #1e90ff;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.external-links a:hover {
+  background: #0b73d9;
+  transform: translateY(-2px);
+}
